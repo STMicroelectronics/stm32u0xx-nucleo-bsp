@@ -31,11 +31,7 @@ extern "C" {
 #include "stm32u0xx_nucleo_errno.h"
 
 #if (USE_BSP_COM_FEATURE > 0)
-#if (USE_COM_LOG > 0)
-#ifndef __GNUC__
 #include <stdio.h>
-#endif /* __GNUC__ */
-#endif /* USE_COM_LOG */
 #endif /* USE_BSP_COM_FEATURE */
 
 /** @addtogroup BSP
